@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#00000000"
+        android:src="@drawable/ic_close_white_24dp"
+        android:tint="@color/colorBtnGray"
+        android:gravity="left"
+        android:layout_gravity="top"/>
+
+    <EditText
+        android:id="@+id/edtLoginId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:hint="@string/loginId_hint"
+        android:textColor="@color/colTxtGreen"
+        android:textColorHint="@color/colTxtGreen"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtPWD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:alpha="0.8"
+        android:hint="@string/pwd_hint"
+        android:textColor="@color/colTxtGreen"
+        android:textColorHint="@color/colTxtGreen"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:hint="@string/nick_name"
+        android:textColor="@color/colTxtGreen"
+        android:textColorHint="@color/colTxtGreen"
+        android:textSize="25dp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/edtGender"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:alpha="0.8"-->
+<!--        android:hint="@string/gander_hint"-->
+<!--        android:textColor="@color/colTxtGreen"-->
+<!--        android:textColorHint="@color/colTxtGreen"-->
+<!--        android:textSize="25dp"-->
+<!--        />-->
+
+    <Spinner
+        android:id="@+id/spiGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/colTxtGreen"
+        android:textSize="25dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/edtBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:hint="@string/age_hint"
+        android:textColor="@color/colTxtGreen"
+        android:textColorHint="@color/colTxtGreen"
+        android:textSize="25dp"
+        android:onClick="datePicker"
+        android:inputType="none"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:hint="@string/email_hint"
+        android:textColor="@color/colTxtGreen"
+        android:textColorHint="@color/colTxtGreen"
+        android:textSize="25dp"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00FFFFFF"
+        android:text="CREATE"
+        android:textColor="@color/colorBtnGray"
+        android:textSize="25dp"/>
+</LinearLayout>

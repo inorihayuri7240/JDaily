@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JDaily</string>
+    <string name="time_hint">時間</string>
+    <string name="itinerary_name_hint">行程名稱</string>
+    <string name="description_hint">行程說明</string>
+    <string name="guest_hint">邀請對象</string>
+    <string name="place_hint">地點</string>
+
+    <string name="loginId_hint">帳號</string>
+    <string name="pwd_hint">密碼</string>
+    <string name="nick_name">暱稱</string>
+    <string name="gander_hint">性別</string>
+    <string name="age_hint">生日</string>
+    <string name="email_hint">Email</string>
+</resources>

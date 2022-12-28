@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTimeStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:format12Hour="yyyy/dd/MM"
+            android:inputType="time"
+            android:text="txtTimeStart"
+            android:textColor="@color/colTxtGreen"
+            android:textSize="20dp"
+            android:layout_marginLeft="16dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtTimeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="yyyy/dd/MM"
+            android:inputType="time"
+            android:text="txtTimeEnd"
+            android:textColor="@color/colTxtGreen"
+            android:textSize="20dp"
+            android:layout_marginLeft="16dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtItiName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="ItiName"
+        android:textColor="@color/colTxtGreen"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtTimeEnd" />
+
+</LinearLayout>

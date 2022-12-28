@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DCF0E3</color><!--    導航欄顏色-->
+<!--    <color name="colorPrimaryDark"></color>&lt;!&ndash;    狀態欄顏色&ndash;&gt;-->
+    <color name="colorAccent">#A8D8B9</color><!--    控件主題顏色-->
+    <color name="colTxtGreen">#91B493</color><!--    默認文字主題顏色-->
+
+    <color name="colorBtnGray">#BDC0BA</color>
+</resources>
