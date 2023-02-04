@@ -1,6 +1,6 @@
 # LiveAndLearn
 ## 簡介
-&emsp;一個簡易記事的Android App，包含前後端撰寫與資料庫連接。
+&emsp;&emsp;一個簡易記事的Android App，包含前後端撰寫與資料庫連接。
 
 ## 系統展示
 <div align="center">
